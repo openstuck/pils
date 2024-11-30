@@ -4,7 +4,7 @@ module.exports = {
     mainnet: "https://dataseed.roburna.com",
     bscTestnet: "https://data-seed-prebsc-2-s2.bnbchain.org:8545",
     bsc: "https://bsc-dataseed.binance.org/",
-    eth: "https://1rpc.io/eth",
+    eth: "https://eth.llamarpc.com",
   },
   wbnb: {
     testnet: "0x38aed14869Df0B10abCE55b6de03Ae168b5c1eeF",

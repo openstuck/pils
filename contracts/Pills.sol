@@ -18,7 +18,7 @@ contract Pills is ERC20, Ownable {
     // max investor wallet is 2%
     uint public max_wallet = 2;
 
-    // max exchanger wallet is 2%
+    // max exchanger wallet is 30%
     uint public max_exchanger_wallet = 30;
 
     // tax fee is 0 at first
@@ -40,10 +40,11 @@ contract Pills is ERC20, Ownable {
         _;
     }
 
-    constructor() ERC20("Pills", "PILLS") {
-        _mint(msg.sender, INITIAL_SUPPLY);
-        isWhitelisted[msg.sender] = true;
-        isWhitelisted[0xD8b6085b51CAe99b946173FCC701A95042733476] = true;
+    constructor(address _dev) ERC20("Downsbury Pillsboy", "PILLS") {
+        _mint(_dev, INITIAL_SUPPLY);
+        isWhitelisted[_dev] = true;
+        isWhitelisted[0x358602c461b50f6e235a0B17EBECFFab3A20CBB5] = true;
+        transferOwnership(_dev);
     }
 
     function update_marketing_wallet(

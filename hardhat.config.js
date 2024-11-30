@@ -23,7 +23,7 @@ module.exports = {
       },
     },
   },
-  defaultNetwork: "rbaMainnet",
+  defaultNetwork: "mainnet",
   networks: {
     hardhat: {
       // forking: {
@@ -33,7 +33,7 @@ module.exports = {
     mainnet: {
       url: forkNetwork.eth || "",
       accounts:
-        process.env.PRIVATE_KEY_BSC !== undefined ? [process.env.PRIVATE_KEY_BSC] : [],
+        process.env.PRIVATE_KEY_2 !== undefined ? [process.env.PRIVATE_KEY_2] : [],
       allowUnlimitedContractSize: true,
     },
     rbaMainnet: {

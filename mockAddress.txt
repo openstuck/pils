@@ -25,3 +25,12 @@ Pills Token Address   : 0xF473f934770DAF4Fd23b1e3A30d079fE7D8BB81A
 
 Pills Token Address   : 0x9A7Ca1C986d783cd19Ba0E6CE51EA12C495fE55C
 =============================================
+
+Pills Token Address   : 0x43181F1DC432Dc84D7cBE61C494D81747749E1dB
+=============================================
+
+Pills Token Address   : 0x476B693D197822Eb899953119a86767F98cE767A
+=============================================
+
+Pills Token Address   : 0x4614870751c80145B7DCE1C983779DC57490b1dc
+=============================================
